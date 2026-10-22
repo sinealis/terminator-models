@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+
+  background: oklch(17.564% 0.0902 300.00);
+  font-family: "Syne Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: #e9e9e9;
+}
+h3 {
+  color: crimson;
+}
+p {
+  color: #333;
 }
