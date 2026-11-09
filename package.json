@@ -2,7 +2,6 @@
   "name": "terminator-models",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sinealis.github.io/terminator-models/",
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
@@ -19,8 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d dist"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
